@@ -1,7 +1,8 @@
 import _Vue, { WatchOptions } from "vue";
 
 // augment typings of Vue.js
-import "./vue";
+// REMOVED to allow users to overload the types themselves
+// import "./vue";
 
 import { mapState, mapMutations, mapGetters, mapActions, createNamespacedHelpers } from "./helpers";
 import createLogger from "./logger";
